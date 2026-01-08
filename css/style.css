@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #000000;
+  margin: 0;
+  padding: 50px;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  background-color: #007BFF;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
+}
+
+body.single {
+  background-color: red;
+  color: white;
+}
+
+body.taken {
+  background-color: pink;
+  color: black;
+}
+
+h1 {
+  color: white;
+}
